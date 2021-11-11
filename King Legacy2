@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Legacy Hub", "DarkTheme")
+
+local Tab = Window:NewTab("Menu")
+local Section = Tab:NewSection("Menu")
+
+Section:NewButton("Fly", "Fly Info", function()
+   https://pastebin.com/raw/7rXZ9VNc
+end)
